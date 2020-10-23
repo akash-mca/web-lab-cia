@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="empmgmt.xsl"?>
+
+<company xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="schema.xsd">
+
+    <employee empid="e101">
+        <name>Bolson</name>
+        <age>50</age>
+        <salary>175000</salary>
+        <email>bolson@gmail.com</email>
+        <phone>1234567899</phone>
+        <designation>System Analyst</designation>
+    </employee>
+
+    <employee empid="e102">
+        <name>Hudson</name>
+        <age>45</age>
+        <salary>150000</salary>
+        <email>hudson@gmail.com</email>
+        <phone>3214569877</phone>
+        <designation>Database Administrator</designation>
+    </employee>
+
+    <employee empid="e103">
+        <name>Carson</name>
+        <age>32</age>
+        <salary>100000</salary>
+        <email>carson@gmail.com</email>
+        <phone>1236547898</phone>
+        <designation>Programmer</designation>
+    </employee>
+
+    <employee empid="e104">
+        <name>Grayson</name>
+        <age>24</age>
+        <salary>75000</salary>
+        <email>grayson@gmail.com</email>
+        <phone>7894561233</phone>
+        <designation>Intern</designation>
+    </employee>
+
+</company> 
