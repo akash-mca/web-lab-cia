@@ -23,12 +23,12 @@
                     <tr>
                         <td><xsl:value-of select="@empid"/></td>
                         <td><xsl:value-of select="name"/></td>
-                            <td><xsl:value-of select="age"/></td>
-                            <td><xsl:value-of select="salary"/></td>
-                            <td><xsl:value-of select="email"/></td>
-                            <td><xsl:value-of select="phone"/></td>
-                            <td><xsl:value-of select="designation"/></td>
-                            <td>
+                        <td><xsl:value-of select="age"/></td>
+                        <td><xsl:value-of select="salary"/></td>
+                        <td><xsl:value-of select="email"/></td>
+                        <td><xsl:value-of select="phone"/></td>
+                        <td><xsl:value-of select="designation"/></td>
+                        <td>
                             <xsl:choose>
                                 <xsl:when test="age >= 50">
                                     Associate Project Manager
